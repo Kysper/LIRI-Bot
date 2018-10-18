@@ -1,0 +1,29 @@
+{
+  "name": "LIRI-Bot",
+  "version": "1.0.0",
+  "description": "Bot developed inside of node.js #Make Liri be able to search spotify for songs, bands that in town on concerts, and OMDB for movies",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kysper/LIRI-Bot.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kysper/LIRI-Bot/issues"
+  },
+  "homepage": "https://github.com/Kysper/LIRI-Bot#readme",
+  "dependencies": {
+    "dotenv": "^6.1.0",
+    "inquirer": "^6.2.0",
+    "moment": "^2.22.2",
+    "node-spotify-api": "^1.0.7",
+    "prompt": "^1.0.0",
+    "request": "^2.88.0",
+    "require": "^2.4.20"
+  }
+}
